@@ -6,50 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/auca" type="text/css"/>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/unique" type="text/css"/>
+    
 </head>
-<body><div class="container">
+<script>document.getElementsByClassName("search-bar").width = "400";</script>
+<body>
+<div class="container">
     <div class="sidebar">
-        <div>Dashboard</div>    
-        <div class="">Home</div>
-        <div class="">Profile</div>
-        <div class="">Messages</div>
-        <div class="">History</div>
-        <div class="">tasks</div>
-        <div class="">Communities</div>
-        <div class="">Settings</div>
-        <div class="">Support</div>
-        <div class="">Privacy</div>
-</div>
+        <div class="sidehead">Dashboard</div>    
+        <div class="sidemain">
+                <div><a href="#home"> <img src="/icons/home.svg" alt=""> Home</a></div>
+                <div><a href=""><img src="/icons/profile.svg" alt=""> Profile</a></div>
+                <div><a href=""><img src="/icons/chat.svg" alt=""> Messages</a></div>
+                <div><a href=""><img src="/icons/history.svg" alt="">History</img></a></div>
+                <div><a href=""><img src="/icons/task.svg" alt="">Tasks</img></a></div>
+                <div><a href=""><img src="/icons/communities.svg" alt="">Communities</img></a></div>
+        </div>
+        <div class="sideend">
+            <div><a href=""><img src="/icons/settings.svg" alt="">Settings</img></a></div>
+            <div><a href=""><img src="/icons/help.svg" alt="">Support</img></a></div>
+            <div><a href=""><img src="/icons/privacy.svg" alt="">Privacy</img></a></div>
+        </div>
+    </div>
 <div class="header">
-    <div class="search-bar"></div>
-    <div class="link-bar"><ul>
-        <li>New</li>
-        <li>Upload</li>
-        <li>Share</li>
-    </ul></div>
-    <div class="head-right"><button></button><button></button> Morgan Oakley</div>
-    <div class="head-left"><button></button> Hi there, Morgan Oakley (@morgan)</div>
+    <div class="search">
+        <img src="/icons/search.svg" alt="search">
+        <input style="text"  class="search-bar"></input>
+    </div>
+    <div class="head-right">
+        <a href=""><input type="image" src="/icons/notification.svg"> </a>
+        <a href="https://github.com/yahyaeslem"><img src="icons/github.svg" alt="mrg"> </a>
+        <span> yahyaeslem</span>
+    </div>
+    <div class="head-left" > 
+        <img src="icons/yahyaeslem.jpeg" alt="mrg">
+      <p> Hi, There ! <span>This is My Project</span> </p>
+    </div>
+    <div class="link-bar">
+        <ul>
+            <li><a href=""><img src="/icons/facebok.svg" alt=""></a></button></li>
+            <li><a href=""><img src="/icons/instagram.svg" alt=""></a></li>
+            <li><a href=""><img src="/icons/linkedin.svg" alt=""></a></li>
+        </ul>
+    </div>
 </div>
 <div class="article">
-    <div class="article-contents">Super Cool Project <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p> </div>
-    <div class="article-contents">Less Cool <p>aaaaaaaaaaaaaaaaaaaaaaaa</p></div>
-    <div class="article-contents">Impossible <p>aaaaaaaaaaaaaaaaaaaaaa</p> </div>
-    <div class="article-contents">Easy Peasy <p>aaaaaaaaaaaaaaaaaaaaaa</p></div>
-    <div class="article-contents">Ad blocker<p>aaaaaaaaaaaaaaaaaaaaaa</p></div>
-    <div class="article-contents">Money Maker<p>aaaaaaaaaaaaaaaaaaaaaa</p></div>
+
+    <div class="boxes">
+        <div class="righthead">Your Projects</div>
+        <div class="cards">
+            <div class="article-contents">
+                <p class="title">Super Cool Project</p> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> 
+                <div class="cardicon">
+                    <a href=""><img src="icons/list.svg" alt=""></a>
+                    <a href=""><img src="icons/fav.svg" alt=""></a>
+                    <a href=""><img src="icons/send.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="article-contents">
+                <p class="title">Less Cool</p> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div class="cardicon">
+                    <a href=""><img src="icons/list.svg" alt=""></a>
+                    <a href=""><img src="icons/fav.svg" alt=""></a>
+                    <a href=""><img src="icons/send.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="article-contents">
+                <p class="title">Impossible</p> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p> 
+                <div class="cardicon">
+                    <a href=""><img src="icons/list.svg" alt=""></a>
+                    <a href=""><img src="icons/fav.svg" alt=""></a>
+                    <a href=""><img src="icons/send.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="article-contents">
+                <p class="title">Easy Peasy</p> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div class="cardicon">
+                    <a href=""><img src="icons/list.svg" alt=""></a>
+                    <a href=""><img src="icons/fav.svg" alt=""></a>
+                    <a href=""><img src="icons/send.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="article-contents">
+                <p class="title">Ad blocker</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div class="cardicon">
+                    <a href=""><img src="icons/list.svg" alt=""></a>
+                    <a href=""><img src="icons/fav.svg" alt=""></a>
+                    <a href=""><img src="icons/send.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="article-contents">
+                <p class="title">Money Maker</p>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div class="cardicon">
+                    <a href=""><img src="icons/list.svg" alt=""></a>
+                    <a href=""><img src="icons/fav.svg" alt=""></a>
+                    <a href=""><img src="icons/send.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+   <div class="right-sidebar">
+       
+       <div class="anouncements">
+           <div class="righthead">Announcements</div>
+           <div class="an-contents">
+               <div class="title">Site Maintenance</div>
+               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolorem</p>
+               <div class="title">Community SHare Day</div>
+               <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus,</p>
+               <div class="title" >Updated Privacy Policy</div>
+               <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, </p>
+           </div>
+       </div>
+       
+       <div class="trending">
+           <div class="righthead">Credits</div>
+           <div class="trending-contents">
+               <span>
+                   <img src="icons/yahyaeslem.jpeg" alt="">
+                   <div class="title">@tegan </div>
+               </span>
+               <p>Project Manager</p>
+               <span>
+                   <img src="icons/yahyaeslem.jpeg" alt="">
+                   <div class="title" ></div>@morgan
+               </span>
+               <p>Content Creator</p>
+              <span>
+                  <img src="icons/yahyaeslem.jpeg" alt="">
+                  <div class="title"></div>@kendall
+              </span>
+              <p>Software Engineer</p>
+               
+            <span>
+                <img src="icons/yahyaeslem.jpeg" alt="">
+                <div class="title"></div>@alex
+            </span>
+            <p>Social Media Manager</p>
+           </div>
+       </div>
+   </div>
 </div>
-<div class="anouncements">
-    <div class="left-h1">Anouncements</div>
-    <div class="left-sidebar-contents">Site Maintenance</div>
-    <div class="left-sidebar-contents">Community SHare Day</div>
-    <div class="left-sidebar-contents">Updated Privacy Policy</div>
-</div>
-<div class="trending">
-    <div class="trending-contents">@tegan</div>
-    <div class="trending-contents">@Morgan </div>
-    <div class="trending-contents">@kendall</div>
-    <div class="trending-contents">@alex</div>
-</div>
+
 </div>
 </body>
 </html>
